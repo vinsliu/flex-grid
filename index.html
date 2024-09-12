@@ -3,20 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Flex et Grid</title>
     <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-
-    <header>
-      <h1>Flex ou Grid ?</h1>
-    </header>
-
-    <section class="workshop1">
-      <h2>Aterlier 1 : barre de navigation</h2>
-    </section>
-
-
+    <main class="container">
+      <h1 class="title">Flex <span class="text-secondary">ou</span> Grid ?</h1>
+      <section class="workshop">
+        <h2 class="subtitle">
+          Atelier 1 : <span class="text-secondary">barre de navigation</span>
+        </h2>
+        <!-- Composant -->
+        <header class="header">
+          <h3>Logo</h3>
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+        <div class="comments">
+          <p><span class="text-secondary">Le choix :</span> Flexbox</p>
+          <p>
+            <span class="text-secondary">Justification :</span> J'ai postionné
+            les enfants sur un seul axe (l'axe horizontal)
+          </p>
+        </div>
+      </section>
+      <section class="workshop">
+        <h2 class="subtitle">
+            Atelier 2 : <span class="text-secondary">section</span>
+        </h2>
+      </section>
+    </main>
   </body>
 </html>
