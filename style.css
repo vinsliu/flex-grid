@@ -38,7 +38,7 @@ html {
   font-weight: 500;
 }
 
-/* Component */
+/* Workshop 1 */
 .header {
   padding: 15px;
   border-bottom: 4px solid #e06e3c;
@@ -73,4 +73,127 @@ html {
 
 .comments p:first-child {
   margin-bottom: 15px;
+}
+
+/* Workshop 2 */
+.component {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* Card */
+.card {
+  border: solid #e06e3c 4px;
+  border-radius: 10px;
+  gap: 12px;
+
+  width: 262px;
+  height: 368px;
+}
+
+.card-pic {
+  object-fit: cover;
+  width: 100%;
+  height: 189px;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-content {
+  height: calc(150px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px 5px 10px 5px;
+}
+
+.card-text {
+  font-size: 10px;
+}
+
+.card-footer {
+  color: #e06e3c;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Workshop 3 */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.rect {
+  width: 100%;
+  min-width: 200px;
+  height: 100%;
+  min-height: 200px;
+  display: block;
+}
+
+.one {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: darkorange;
+}
+
+.two {
+  grid-area: 1 / 2 / 3 / 3;
+  background-color: darkorange;
+}
+
+.three {
+  grid-area: 1 / 3 / 1 / 3;
+  background-color: darkorange;
+}
+
+.four {
+  grid-area: 1 / 4 / 1 / 4;
+  background-color: darkorange;
+}
+.five {
+  grid-area: 1 / 5 / 1 / 5;
+  background-color: darkorange;
+}
+.six {
+  grid-area: 2 / 1 / 2 / 1;
+  background-color: darkorange;
+}
+.seven {
+  grid-area: 2 / 3 / 2 / 3;
+  background-color: darkorange;
+}
+.eight {
+  grid-area: 2 / 4 / 3 / 6;
+  background-color: darkorange;
+}
+.nine {
+  grid-area: 3 / 1 / 3 / 1;
+  background-color: darkorange;
+}
+.ten {
+  grid-area: 3 / 2 / 3 / 2;
+  background-color: darkorange;
+}
+.eleven {
+  grid-area: 3 / 3 / 5 / 5;
+  background-color: darkorange;
+}
+.twelve {
+  grid-area: 3 / 5 / 3 / 5;
+  background-color: darkorange;
+}
+.thirdteen {
+  grid-area: 4 / 1 / 4 / 1;
+  background-color: darkorange;
+}
+.fourteen {
+  grid-area: 4 / 2 / 4 / 2;
+  background-color: darkorange;
+}
+.fifteen {
+  grid-area: 4 / 5 / 4 / 5;
+  background-color: darkorange;
 }
